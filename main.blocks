@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="UZl=EiO@C;c;!sYvh/2+">value</variable></variables><block type="device_forever" id="7{*]ingsgM6Hz*74(N{-" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="A+IbrJ~4WpmV4~!h4gE:"><field name="VAR" id="UZl=EiO@C;c;!sYvh/2+">value</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="aMif`]U4!sg*JK|9Fj^y"><field name="name">AnalogPin.P1</field></block></value><next><block type="device_show_number" id="[:.6i,(.7,j5e8[e%Yyy"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="shbcHn#ly1($_5a05uR("><field name="VAR" id="UZl=EiO@C;c;!sYvh/2+">value</field></block></value></block></next></block></statement></block><block type="controls_if" id="3XgZ`m6DRpRY.1)VqNTL" disabled="true" x="925" y="387"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="mdl}I{hig*0tJAPrZ;Ds" disabled="true"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="%:Lm+DiRw=w138U%XquK" disabled="true"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="fUXG[Pj:yQ[?9D07b*GH" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
